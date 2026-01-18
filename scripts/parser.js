@@ -6,6 +6,11 @@ const SOURCES = [
         path: 'nano-banana-pro/README_zh-TW.md',
         type: 'nano-banana-pro',
         category: 'Nano Banana Pro'
+    },
+    {
+        path: 'gemini-3/README_zh-TW.md',
+        type: 'gemini-3',
+        category: 'Gemini 3'
     }
 ];
 
