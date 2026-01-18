@@ -17,6 +17,8 @@ const SOURCES = [
 const OUTPUT_FILE = 'mobile-app/src/data/prompts.json';
 const OUTPUT_DIR = path.dirname(OUTPUT_FILE);
 
+let globalIdCounter = 1; // Global counter for unique IDs across all sources
+
 function parseMarkdown(content, type, category) {
     const prompts = [];
     // Regex to split by "### No. " but keep the delimiter to identified sections
@@ -26,7 +28,7 @@ function parseMarkdown(content, type, category) {
         try {
             // Extract Title
             const titleMatch = section.match(/^(\d+): (.*?)\r?\n/);
-            const id = titleMatch ? `${type}-${titleMatch[1]}` : `${type}-${index}`;
+            const id = `${type}-${globalIdCounter++}`; // Use global counter for unique IDs
             const title = titleMatch ? titleMatch[2].trim() : 'Unknown Title';
 
             // Extract Description
