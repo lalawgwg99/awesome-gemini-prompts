@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
-import { Copy, Check, Settings2, Sparkles, Pencil, RotateCcw, SlidersHorizontal, Type } from "lucide-react";
+import { useState, useMemo } from "react";
+import { Copy, Check, Sparkles, Pencil, RotateCcw, SlidersHorizontal, Type } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface Prompt {
@@ -24,11 +24,6 @@ interface PromptVariable {
 }
 
 export function PromptCard({ prompt }: { prompt: Prompt }) {
-    const [copied, setCopied] = useState(false);
-    const [variables, setVariables] = useState<Record<string, string>>({});
-    const [isManualMode, setIsManualMode] = useState(false);
-    const [manualContent, setManualContent] = useState("");
-
     // 1. 解析變數
     const parsedParams = useMemo(() => {
         const regex = /\{argument\s+name="([^"]+)"\s+default="([^"]+)"\}/g;
@@ -45,16 +40,18 @@ export function PromptCard({ prompt }: { prompt: Prompt }) {
         return matches;
     }, [prompt.prompt]);
 
-    // 2. 初始化變數
-    useEffect(() => {
+    // 2. 初始化變數 - 使用函數初始化避免 useEffect
+    const [variables, setVariables] = useState<Record<string, string>>(() => {
         const initialVars: Record<string, string> = {};
         parsedParams.forEach(p => {
             initialVars[p.name] = p.default;
         });
-        setVariables(initialVars);
-        setIsManualMode(false);
-        setManualContent("");
-    }, [parsedParams, prompt.id]);
+        return initialVars;
+    });
+
+    const [isManualMode, setIsManualMode] = useState(false);
+    const [manualContent, setManualContent] = useState("");
+    const [copied, setCopied] = useState(false);
 
     // 3. 計算「自動產生」的提示詞 (基於變數)
     const generatedPrompt = useMemo(() => {
