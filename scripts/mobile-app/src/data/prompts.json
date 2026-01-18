@@ -2675,5 +2675,1015 @@
       "EN",
       "Raycast"
     ]
+  },
+  {
+    "id": "gemini-3-131",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "感恩節查理布朗主題商店",
+    "description": "一個簡潔的提示，用於建立一個以感恩節查理布朗為主題的商店介面，適合做為網路商店的設計。",
+    "prompt": "請以「{argument name=\"theme_en\" default=\"Thanksgiving Charlie Brown\"}」為主題和風格，為我建立一個商店。",
+    "image": "https://cms-assets.youmind.com/media/1764209199931_ydctkh_ardodAtG20ci8f5l.jpg",
+    "author": {
+      "name": "Sedativ",
+      "url": "https://x.com/sedgabi"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/sedgabi/status/1993326264741146985"
+    },
+    "tags": [
+      "EN",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-132",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "AI 遊戲的未來感動畫登陸頁面",
+    "description": "一個在 Claude Code 技能中使用的英文提示，它要求 Gemini 3 Pro 為一款新的 AI 遊戲設計一個充滿未來感且動畫豐富的登陸頁面。",
+    "prompt": "我想要為一款新的 {argument name=\"product_type_en\" default=\"AI 遊戲\"} 設計一個登陸頁面。我們希望它看起來充滿未來感，並盡可能多地使用動畫。",
+    "image": "https://cms-assets.youmind.com/media/1764209188519_6bfhcw_4pj5ZhLxXweIHBF7.jpg",
+    "author": {
+      "name": "elvis",
+      "url": "https://x.com/omarsar0"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/omarsar0/status/1993101718041903565"
+    },
+    "tags": [
+      "EN",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-133",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "Hello world 網頁，具有 Linear 風格的變體",
+    "description": "以下是 Gemini 3.0 的三個簡單提示，展示了如何透過加入風格和圖像（特別是線性風格設計和圖像提示）來改變所生成「Hello World」頁面的品質。",
+    "prompt": "協助我建立一個 hello world 頁面。\r\n\r\n協助我建立一個採用 {argument name=\"style_en\" default=\"Linear\"} 樣式的 hello world 頁面。\r\n\r\n協助我建立一個採用 {argument name=\"style_en\" default=\"Linear\"} 樣式的 hello world 頁面。",
+    "image": "https://cms-assets.youmind.com/media/1764255462009_uhh5bg_G6QfnjjacAgZb_r.jpg",
+    "author": {
+      "name": "Jason Zhou",
+      "url": "https://x.com/jasonzhou1993"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/jasonzhou1993/status/1991754086417682891"
+    },
+    "tags": [
+      "EN",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-134",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "奢華 3D 手錶產品體驗頁面 (Next.js + Three.js)",
+    "description": "一個詳細的日文提示，用於設計一個豪華 3D 產品體驗網頁，專為高階手錶打造，使用 Next.js、Three.js、React Three Fiber、GLSL，並包含特定的捲動區塊和著色器要求。",
+    "prompt": "為一款奢華腕錶設計 3D 產品體驗頁面。\r\n**目標使用者：** 30–50 歲的富裕客戶、腕錶愛好者和商務人士。\r\n**品牌調性：** 奢華 × 科技（現代、精緻的高端感受）。\r\n滾動體驗（5 個部分）：\r\n主視覺區塊 – 腕錶在旋轉的同時，從黑暗中緩緩顯現於光線下。運用全息效果和菲涅耳反射，並搭配客製化著色器。\r\n細節特寫 – 錶盤的特寫鏡頭。使用 GLSL 實現金屬反射、視差貼圖和即時光澤。\r\n機芯分解 – 腕錶分解，內部機芯懸浮在空中。使用置換著色器營造能量場效果，並為每個零件添加發光效果。\r\n材質體驗 – 在不同的材質變體之間切換。透過 PBR 著色器以物理基礎的方式呈現金屬感、玻璃折射和鈦金屬的啞光紋理。\r\n結尾 – 腕錶重新組裝，背景為使用客製化著色器製作的抽象漸變網格。應用後製處理，例如泛光和景深。\r\n**技術堆疊：** Next.js 15 + Three.js + React Three Fiber + GLSL (客製化著色器) + react-postprocessing + Lenis。\r\n著色器要求：\r\n菲涅耳反射著色器（邊緣光效果）\r\nPBR 材質著色器（粗糙度、金屬度、AO）\r\n全息著色器（虹彩干涉效果）\r\n置換著色器（波動和扭曲效果）\r\n客製化背景著色器（漸變噪點）\r\n後製處理：Bloom、ChromaticAberration、DepthOfField、Vignette。\r\n請為以下項目提出具體的數值：\r\n每個區塊的滾動範圍（以 % 或 vh 單位表示）\r\n動畫參數（位置、旋轉、縮放等的起始/結束值）\r\n緩動函數（緩動類型）\r\n攝影機 FOV、位置和目標值\r\n燈光設定（強度、顏色、位置）\r\n每個著色器的 Uniform 值（時間進度、滾動進度、色相、強度等）。",
+    "image": "https://cms-assets.youmind.com/media/1764209263817_ppwln2_Fki2iITrOE6gCPlf.jpg",
+    "author": {
+      "name": "Shin@プログラミングチュートリアル",
+      "url": "https://x.com/Shin_Engineer"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/Shin_Engineer/status/1991740779652657455"
+    },
+    "tags": [
+      "JA"
+    ]
+  },
+  {
+    "id": "gemini-3-135",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "俏皮的薩爾達影片擷取編輯器提示",
+    "description": "一個幽默的中文提示，扮演一位資深遊戲程式設計大師，描述如何使用 WebCodecs 建立編輯器並擷取《薩爾達傳說：曠野之息》的遊戲畫面。",
+    "prompt": "您是一位資深的遊戲程式設計大師。請幫我編寫一個編輯器，其渲染模組使用 WebCodecs。打開 Switch 並插入 {argument name=\"game_title_en\" default=\"薩爾達傳說：曠野之息\"}。小心不要舔卡帶——它有點苦。使用專業擷取卡錄製影片，在 60 秒的時間限制內完成「被遺忘的神廟」挑戰並使用風彈。",
+    "image": "https://cms-assets.youmind.com/media/1764209194824_ts6ken_jsGpVuIdSwPESSnR.jpg",
+    "author": {
+      "name": "海拉鲁编程客",
+      "url": "https://x.com/hylarucoder"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/hylarucoder/status/1991491913720218098"
+    },
+    "tags": [
+      "ZH",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-136",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "豪華智慧手錶 Three.js 動畫區塊登陸頁面",
+    "description": "為 Gemini 3 Pro 設計的詳細多步驟提示序列，用於使用 Three.js、Anime.js 和 Tailwind 建立一個奢華智慧手錶的登陸頁面，然後將其精煉成一個具有進階動畫和互動的多區塊滾動網站。",
+    "prompt": "使用 Three.js、Anime.js 和 Tailwind 為一個 {argument name=\"product_type_en\" default=\"奢華智慧手錶\"} 頁面建立一個 HTML 檔案。製作一個 3D {argument name=\"main_object_en\" default=\"手錶\"} 模型，一個帶有圓孔的深色紋理疊加層，顯示 {argument name=\"main_object_background_en\" default=\"米色背景上的手錶\"}，並在頁面載入時讓標題和大型數字滑入。\r\n\r\n讓頁面更專業。將靜態孔替換為載入時會打開的光圈。在 {argument name=\"focus_area_en\" default=\"錶面\"} 上方添加一個帶有反射的玻璃圓頂，改善金屬材質，添加滑鼠視差效果，使 {argument name=\"parallax_target_en\" default=\"手錶\"} 隨著游標旋轉，並在 {argument name=\"dial_area_en\" default=\"錶面\"} 上繪製時間和健身環。\r\n\r\n將單一螢幕變成多區塊捲動網站。當使用者捲動時，動畫化 3D {argument name=\"scroll_object_en\" default=\"手錶\"} 以移動和旋轉，以配合每個區塊。保持 3D 畫布和背景固定，而文字在其上方捲動；只有 {argument name=\"moving_element_en\" default=\"手錶\"} 移動。\r\n\r\n- 固定畫布：定位畫布",
+    "image": "https://cms-assets.youmind.com/media/1764209174368_jdx5gi_6A51eMDR7nvxQOPd.jpg",
+    "author": {
+      "name": "Harshith",
+      "url": "https://x.com/HarshithLucky3"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/HarshithLucky3/status/1991474311916580881"
+    },
+    "tags": [
+      "EN",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-137",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "產生 40 個帶有下載按鈕的簡單 SVG 圖示",
+    "description": "一個日文提示，要求 Gemini 生成 40 個簡潔、多功能的淺藍色線條風格 SVG 圖示，每個圖示都附有下載按鈕。",
+    "prompt": "產生 {argument name=\"icon_count_en\" default=\"40\"} 個簡潔且高度通用的 SVG 格式圖示。請務必在畫布上繪製。顏色應為 {argument name=\"icon_color_en\" default=\"light blue\"}。背景應為 {argument name=\"background_color_en\" default=\"white\"}。使用具有 Material Design 風格的線條式圖示。新增一個按鈕，讓使用者可以將每個 SVG 圖示下載為 SVG 資料。",
+    "image": "https://cms-assets.youmind.com/media/1764209262445_mf7cya_G6MWd-wbsAAKYiw.jpg",
+    "author": {
+      "name": "KAWAI",
+      "url": "https://x.com/kawai_design"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/kawai_design/status/1991461556597715056"
+    },
+    "tags": [
+      "JA",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-138",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "體素藝術寶塔花園單一 HTML 場景",
+    "description": "一個英文提示，用於設計一個色彩繽紛的體素藝術寶塔花園環境，作為一個完全獨立的 HTML 檔案，可在 Chrome 中運行，並使用任何體素/WebGL 函式庫。",
+    "prompt": "設計一個精緻的立體像素藝術環境，其中包含一座華麗的 {argument name=\"main_structure_en\" default=\"pagoda\"}，置身於一個生機盎然的花園中。\r\n加入多樣的植被——特別是 {argument name=\"key_tree_en\" default=\"cherry blossom trees\"}——並確保構圖感覺生動、色彩豐富且視覺效果引人注目。\r\n您可以使用任何偏好的立體像素或 WebGL 函式庫，但請將整個專案作為一個獨立的 HTML 檔案交付，以便我可以直接貼上並在 Chrome 中開啟。",
+    "image": "https://cms-assets.youmind.com/media/1764209216678_bb9sac_N3NTnsH6x0dVwRpf.jpg",
+    "author": {
+      "name": "老白（每日干货分享✊）",
+      "url": "https://x.com/laobaishare"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/laobaishare/status/1991427416603128159"
+    },
+    "tags": [
+      "EN",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-139",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "未來感十足的加密貨幣儀表板 UI",
+    "description": "一個中文提示，用於重新創建一個未來感的深色模式加密貨幣數據儀表板，具有玻璃擬態、霓虹燈點綴和時尚的 Inter 字體。",
+    "prompt": "重新打造一個未來感的深色模式加密貨幣數據儀表板：整體採用高對比度的黑曜石背景、帶有漸變邊框的玻璃擬態 UI 元素、纖細的 Inter 字體，以及帶有霓虹燈效果的金融數據視覺化。",
+    "image": "https://cms-assets.youmind.com/media/1764209220218_kppymm_mu18egPuhdhyynBc.jpg",
+    "author": {
+      "name": "老白（每日干货分享✊）",
+      "url": "https://x.com/laobaishare"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/laobaishare/status/1991427411129561513"
+    },
+    "tags": [
+      "ZH"
+    ]
+  },
+  {
+    "id": "gemini-3-140",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "HTML 中的 SVG 摩天輪機械動畫",
+    "description": "一個提示，用於設計一個精確的機械 SVG 摩天輪動畫，包含齒輪、連桿和自動調平座艙，並以 HTML 輸出。",
+    "prompt": "設計一個 SVG 摩天輪機械動畫，其中包含一個主輪、中央軸承、支撐架、傳動齒輪組，以及 8 到 12 個帶有反向自平衡機制以保持水平的座艙。所有連桿和齒輪傳動必須精確，展示完整的機械傳動鏈和保持座艙水平的反向旋轉邏輯。以 HTML 格式輸出。",
+    "image": "https://cms-assets.youmind.com/media/1764209214086_7c83l2_fGU454kI2vu8dFjI.jpg",
+    "author": {
+      "name": "老白（每日干货分享✊）",
+      "url": "https://x.com/laobaishare"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/laobaishare/status/1991427405538554207"
+    },
+    "tags": [
+      "ZH"
+    ]
+  },
+  {
+    "id": "gemini-3-141",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "Keep-inspired 中文健身課程網站",
+    "description": "一個長篇的英文風格提示（中文），要求 Gemini 建立一個受 Keep 啟發的中文健身課程網站，具備響應式 Tailwind CSS、課程卡片、篩選器和搭配的影片彈出視窗。",
+    "prompt": "建立一個受 {reference_brand_en} 啟發的中文「健身課程」網頁：包含全螢幕運動員主視覺圖片、透明固定導覽列、中文膠囊標籤類別，以及中文課程卡片網格。每張課程卡片對應一個訓練計畫；參考 {instructor_examples_en} 等創作者的課程風格，設計中文標題和難度、時長標籤。點擊卡片時，在頁面內開啟一個與卡片資訊嚴格匹配的課程預覽影片播放器。整體設計應簡約而細緻，運用流暢捲動和懸停動畫、柔和漸層和精緻排版，營造高端的中文體驗。使用 Tailwind CSS 實作完全響應式佈局。",
+    "image": "https://cms-assets.youmind.com/media/1764209217106_6fmlu1_3SnhTqXry41EUPsg.jpg",
+    "author": {
+      "name": "老白（每日干货分享✊）",
+      "url": "https://x.com/laobaishare"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/laobaishare/status/1991427408323572067"
+    },
+    "tags": [
+      "ZH"
+    ]
+  },
+  {
+    "id": "gemini-3-142",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "Keep 風格的中文健身頁面 (單一 HTML)",
+    "description": "一個英文提示，用於使用 Tailwind 和 JavaScript 在單一 HTML 檔案中建立一個具有互動式 SVG 人體、篩選器和運動卡片的 Keep 風格中文健身頁面。",
+    "prompt": "使用簡潔、現代化的使用者介面，打造一個 Keep 風格的中文健身頁面，其中包含互動式 SVG 人體模型（正面/背面視圖，點擊肌肉會高亮顯示）、中文篩選器（性別/等級/器材）和運動卡片。使用 Tailwind + JavaScript 將其作為單一 HTML 檔案交付。",
+    "image": "https://cms-assets.youmind.com/media/1764209210820_oxsdtd_JD0qwSM30jXTVCtO.jpg",
+    "author": {
+      "name": "老白（每日干货分享✊）",
+      "url": "https://x.com/laobaishare"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/laobaishare/status/1991427402757730387"
+    },
+    "tags": [
+      "EN"
+    ]
+  },
+  {
+    "id": "gemini-3-143",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "新粗野主義網站設計提示",
+    "description": "一個簡短的英文提示，用於建立一個具有流暢捲動動畫、鮮豔色彩和響應式 Tailwind 佈局的新粗野主義風格網站。",
+    "prompt": "建立一個突破創意界限的新粗野主義網站。加入流暢的捲動動畫、鮮豔的色彩和 Tailwind ES 樣式，並使其完全響應式。",
+    "image": "https://cms-assets.youmind.com/media/1764209207369_aa3rub_Com2rFXK131nN-WJ.jpg",
+    "author": {
+      "name": "老白（每日干货分享✊）",
+      "url": "https://x.com/laobaishare"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/laobaishare/status/1991427399884624333"
+    },
+    "tags": [
+      "EN"
+    ]
+  },
+  {
+    "id": "gemini-3-144",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "復古拍立得相機網站與照片牆",
+    "description": "一個詳盡的中文提示，描述一款具有復古拍立得風格的網路攝影機應用程式，包含即時網路攝影機預覽、沖洗照片動畫，以及可拖曳照片以組成拼貼牆的功能。",
+    "prompt": "請開發一個具有復古拍立得氛圍的網路攝影機應用程式。在頁面左下角放置一個拍立得相機模型，該模型可以呼叫使用者的網路攝影機並顯示即時預覽。點擊快門後，一張「相紙」會從相機頂部緩慢彈出，照片會從最初的模糊逐漸變得清晰。使用者可以將完全顯影的照片從相機上方拖曳到頁面上的任何位置，創造出類似於「照片拼貼牆」的自由佈局。",
+    "image": "https://cms-assets.youmind.com/media/1764209203730_z4nncu_80rs2O9LInawTSTj.jpg",
+    "author": {
+      "name": "老白（每日干货分享✊）",
+      "url": "https://x.com/laobaishare"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/laobaishare/status/1991427396625383621"
+    },
+    "tags": [
+      "ZH"
+    ]
+  },
+  {
+    "id": "gemini-3-145",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "塔羅牌風格的解夢日誌網路應用程式",
+    "description": "一個用於建立中文網路應用程式的提示，讓使用者每天早上記錄夢境、拼貼貼紙插圖，最後生成一張塔羅牌般的夢境卡。",
+    "prompt": "開發一個中文網路應用程式，讓使用者每天早上記錄他們的夢境。此應用程式提供大量的「插畫貼紙」，讓使用者拼貼並重現夢境場景，最後生成一張看起來像塔羅牌的夢境卡片。",
+    "image": "https://cms-assets.youmind.com/media/1764209238976_et7ieq_7pJ4fC5sdbhGHT7S.jpg",
+    "author": {
+      "name": "松果先森",
+      "url": "https://x.com/songguoxiansen"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/songguoxiansen/status/1991424776473317412"
+    },
+    "tags": [
+      "ZH"
+    ]
+  },
+  {
+    "id": "gemini-3-146",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "搭載 Gemini 和 React 的 3D 磚塊建造應用程式",
+    "description": "一個英文系統風格的提示，讓 Gemini 扮演世界級前端工程師，使用 React、Three.js、Tailwind CSS 和 Gemini API 建立一個類似 Minecraft 的 3D 磚塊建造應用程式。",
+    "prompt": "扮演世界級前端工程師和使用者體驗設計師。使用 React、Three.js (@react-three/fiber)、Tailwind CSS 和 Google Gemini API (@google/genai) 建立一個 {argument name=\"application_name_en\" default=\"3D Brick Builder Application\"}。\r\n\r\n## 設計理念\r\n- **主題**：{argument name=\"theme_en\" default=\"White Base\"} 現代美學。",
+    "image": "https://cms-assets.youmind.com/media/1764209267012_gx9du5_eHxLjy9ur6Zi0Prr.jpg",
+    "author": {
+      "name": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信⚡️》",
+      "url": "https://x.com/masahirochaen"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/masahirochaen/status/1991414295398346786"
+    },
+    "tags": [
+      "EN",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-147",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "X (Twitter) MBTI 分析器網路應用程式",
+    "description": "一個用於建立中文網路介面的提示，該介面透過呼叫由 Gemini 驅動的後端來分析推文的 MBTI 類型，並採用 Linear 的深色主題風格。",
+    "prompt": "建立一個 X MBTI 分析器：使用者貼上推文 → 前端呼叫後端（後端使用 Gemini API 推斷 MBTI 類型）。\r\n設計風格應遵循 Linear，僅限深色模式，並帶有簡約而高品質的感覺和精緻的細節。介面應為中文。",
+    "image": "https://cms-assets.youmind.com/media/1764209223074_p70pfd_LqvLh0zCSYOy3-VE.jpg",
+    "author": {
+      "name": "katon",
+      "url": "https://x.com/hellokaton"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/hellokaton/status/1991413950098075659"
+    },
+    "tags": [
+      "ZH"
+    ]
+  },
+  {
+    "id": "gemini-3-148",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "AI 漢服衣櫥虛擬試穿應用程式",
+    "description": "一個給 Gemini 3 Pro 的中文提示，用於生成一個漢服衣櫥網路應用程式，使用者可以上傳照片虛擬試穿不同朝代的服裝，並客製化髮簪和妝容。",
+    "prompt": "開發一款中文 AI 漢服衣櫥應用程式。此應用程式使用 AI 換臉或 3D 身形技術。使用者上傳照片後，即可一鍵「試穿」來自不同朝代（例如：唐、宋、明）的漢服，或自行搭配髮簪和妝容。",
+    "image": "https://cms-assets.youmind.com/media/1764209249948_o2ejtv_bEBJ9Q-sEm-FuO9_.jpg",
+    "author": {
+      "name": "松果先森",
+      "url": "https://x.com/songguoxiansen"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/songguoxiansen/status/1991408418658349419"
+    },
+    "tags": [
+      "ZH"
+    ]
+  },
+  {
+    "id": "gemini-3-149",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "復古 Motorola Fix Beeper 打字機網路應用程式",
+    "description": "一個給 Gemini 3 Pro 的中文提示，用於建立一個復古 Motorola Fix Beeper 風格的網路打字機，能將使用者輸入的文字轉換成可拖曳的卡片，並在頁面中央以緩慢的打字動畫顯示。",
+    "prompt": "請協助我建立一個復古打字機網路應用程式，主題為「{argument name=\"device_name_en\" default=\"Motorola Fix Beeper\"}」。在頁面中央顯示一個打字機，可以接收使用者輸入的文字，並以卡片形式產生，帶有類似打字機緩慢打字的效果，並允許將卡片拖曳到空白區域。",
+    "image": "https://cms-assets.youmind.com/media/1764209243747_6zn4ng_st6US49_VK2ldIvf.jpg",
+    "author": {
+      "name": "被减数",
+      "url": "https://x.com/Lessnoise365"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/Lessnoise365/status/1991391000833716683"
+    },
+    "tags": [
+      "ZH",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-150",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "希臘神話星座中文網路應用程式",
+    "description": "為 Gemini 3 Pro 撰寫的提示，用於建構一個單頁中文網路應用程式，將每個星星或星座呈現為一本繪本，結合星座線條與插圖神話人物。",
+    "prompt": "生成一個以圖片書形式講述每個星星或星座的希臘神話故事的 {argument name=\"language_en\" default=\"中文\"} 網路應用程式。它不僅應顯示星座的連線，還應展示神話人物的插圖。",
+    "image": "https://cms-assets.youmind.com/media/1764209254334_uu21fi_fDJNuJlmTIVYVYvr.jpg",
+    "author": {
+      "name": "松果先森",
+      "url": "https://x.com/songguoxiansen"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/songguoxiansen/status/1991329649419530336"
+    },
+    "tags": [
+      "ZH",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-151",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "賽博風格現代黃曆網路應用程式",
+    "description": "一個 Gemini 提示，用於建立一個賽博龐克風格的中文網路應用程式，該應用程式能根據年輕人的生活方式，生成現代的每日運勢卡片，而非傳統的吉祥活動。",
+    "prompt": "為年輕人打造一個賽博龐克風格的中文網路應用程式，作為現代版的每日黃曆。它不應包含「宜嫁娶」等傳統項目，而應反映現代生活情境。例如：「今日宜：{argument name=\"today_do_example_1_en\" default=\"上班摸魚\"}、{argument name=\"today_do_example_2_en\" default=\"喝奶茶\"}、{argument name=\"today_do_example_3_en\" default=\"告白\"}；今日忌：{argument name=\"today_avoid_example_1_en\" default=\"開會\"}、{argument name=\"today_avoid_example_2_en\" default=\"熬夜\"}、{argument name=\"today_avoid_example_3_en\" default=\"立下宏願\"}。」",
+    "image": "https://cms-assets.youmind.com/media/1764209237338_qmtoz8_2y43kqiU39gDRcwd.jpg",
+    "author": {
+      "name": "松果先森",
+      "url": "https://x.com/songguoxiansen"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/songguoxiansen/status/1991315808338014231"
+    },
+    "tags": [
+      "ZH",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-152",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "復古拍立得風格相機網路應用程式",
+    "description": "一個中文提示，用於建立一個復古拍立得相機網路應用程式，其中左下角的相機連接到網路攝影機，彈出正在顯影的照片，並讓使用者拖曳它們以形成照片牆。",
+    "prompt": "請協助我建立一個復古的拍立得風格相機網路應用程式。在頁面左下角顯示一個可以連接網路攝影機並顯示即時預覽的相機。當快門按鈕被點擊時，一張相紙會從相機頂部緩慢彈出，照片會從模糊逐漸變得清晰。使用者可以將顯影後的照片從相機上方拖曳到相機以外的頁面區域，創造出照片牆般的效果。",
+    "image": "https://cms-assets.youmind.com/media/1764209224660_q703c0_3hoHx30nVZ5b8yyw.jpg",
+    "author": {
+      "name": "饼干哥哥AGI（2.0）",
+      "url": "https://x.com/bggg_ai"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/bggg_ai/status/1991310988201849346"
+    },
+    "tags": [
+      "ZH"
+    ]
+  },
+  {
+    "id": "gemini-3-153",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "極繁主義數位熱狗新創公司網站",
+    "description": "給 Gemini 3.0 Pro 的一個俏皮提示：為一家銷售數位熱狗的虛構新創公司，設計一個極繁主義、著重著色器、波浪漸層的網站，並帶有精美動畫的主視覺文字，可對滑鼠懸停做出反應。",
+    "prompt": "為一家銷售 {argument name=\"product_en\" default=\"數位熱狗\"} 的虛構新創公司設計一個極繁主義網站。我想要精美動畫的英雄文字，帶有對滑鼠懸停做出反應的著色器，並有大量抖動和波浪狀、時髦的漸變。",
+    "image": "https://cms-assets.youmind.com/media/1764255462517_0xbgr4_8CEmdG0IihE4XzEk.jpg",
+    "author": {
+      "name": "ben",
+      "url": "https://x.com/benhylak"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/benhylak/status/1991225744194691289"
+    },
+    "tags": [
+      "EN",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-154",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "使用 Three.js 製作的 Raymarched Mandelbulb 碎形，帶有音訊反應粒子",
+    "description": "一個精簡的 Three.js/GLSL 提示，要求 Gemini 3 Pro 在單一檔案中建立一個光線行進的 Mandelbulb 碎形，周圍環繞著數千個具有 Unreal Bloom 效果的音訊反應實例化粒子。",
+    "prompt": "在 GLSL 中建立一個 raymarching Mandelbulb 碎形，並用 {argument name=\"particle_count_en\" default=\"12,000\"} 個實例化粒子將其環繞，使其對我的麥克風產生音訊反應，並加入 Unreal Bloom。",
+    "image": "https://cms-assets.youmind.com/media/1764209159016_6yk3yw_TCUAUpzJbxn8xmOV.jpg",
+    "author": {
+      "name": "SRKDAN",
+      "url": "https://x.com/SRKDAN"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/SRKDAN/status/1991210377179234355"
+    },
+    "tags": [
+      "EN",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-155",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "為客戶 AP 打造的代理商風格網站",
+    "description": "一個簡單的指令式提示，要求 Gemini 3 Pro 扮演 makemepulse 工作室的角色，為客戶 AP 建立一個網站，並著重於精心的執行。",
+    "prompt": "您是 {argument name=\"studio_name_en\" default=\"makemepulse\"} 工作室。請為 {argument name=\"client_name_en\" default=\"AP\"} 建立一個網站。請仔細思考，不要犯任何錯誤。",
+    "image": "https://cms-assets.youmind.com/media/1764209176859_vznbt0_UPKTu2bYW7AZTCBs.jpg",
+    "author": {
+      "name": "arda",
+      "url": "https://x.com/ardadoteth"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/ardadoteth/status/1991203658269090295"
+    },
+    "tags": [
+      "EN",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-156",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "使用 Mediapipe 和 Three.js 實現雷射眼效果網頁示範",
+    "description": "一個簡潔的技術提示，用於 Gemini 3 建立一個網路體驗，該體驗使用前置鏡頭和 Mediapipe 臉部地標，透過 Three.js 應用即時 3D 雷射眼效果。",
+    "prompt": "使用電腦的前置鏡頭。\r\n使用 `mediapipe` 函式庫擷取臉部地標。\r\n根據 `mediapipe` 提供的即時 3D 地標資訊，使用 `threejs` 將雷射眼 (LASER EYE) 特效應用於鏡頭捕捉到的臉部。",
+    "image": "https://cms-assets.youmind.com/media/1764255461636_mdlo2t_TrOA856i8yUthOuI.jpg",
+    "author": {
+      "name": "愚瞳 | winterx",
+      "url": "https://x.com/fangyex"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/fangyex/status/1991186281704173931"
+    },
+    "tags": [
+      "EN"
+    ]
+  },
+  {
+    "id": "gemini-3-157",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "Three.js 版 Minecraft 生存模式複製品",
+    "description": "一個提示，指示 Gemini 3 Pro 使用 Three.js 為網頁設計一個完整的《Minecraft》生存模式複製品。",
+    "prompt": "使用 {argument name=\"tech_stack_en\" default=\"Three.js\"} 設計一個 {argument name=\"game_name_en\" default=\"Minecraft\"} 的完整生存模式複製品。",
+    "image": "https://cms-assets.youmind.com/media/1764255475793_hdfpvg_nCOFPLDKO3ls9qTb.jpg",
+    "author": {
+      "name": "Vardhan Agnihotri",
+      "url": "https://x.com/agno_three"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/agno_three/status/1991176488289223136"
+    },
+    "tags": [
+      "EN",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-158",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "具備互動式響應式設計的企業登陸頁面",
+    "description": "一個給 Gemini 的提示，用於生成一個具有響應式佈局、動畫和互動元素，並可適應任何業務類型的專業企業登陸頁面。",
+    "prompt": "為 {argument name=\"business_description_en\" default=\"[DESCRIBE YOUR BUSINESS]\"} 產生一個企業級的專業登陸頁面。\r\n\r\n加入互動元素、動畫，並使其完全響應。\r\n\r\n請給我驚喜，發揮創意，並逐步完成。",
+    "image": "https://cms-assets.youmind.com/media/1764255470380_e6ucvk_ubnvLR01M37lxkrV.jpg",
+    "author": {
+      "name": "God of Prompt",
+      "url": "https://x.com/godofprompt"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/godofprompt/status/1991146150859039013"
+    },
+    "tags": [
+      "EN",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-159",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "中國傳統色彩每日網頁應用程式",
+    "description": "一個用於建立每日介紹一種傳統中國色彩，並搭配詩詞和相關插圖或風景的網路應用程式的 Gemini 提示。",
+    "prompt": "生成一個網頁應用程式，每天介紹一種 {argument name=\"color_system_en\" default=\"傳統中國色彩\"}（例如：{argument name=\"example_color_1_en\" default=\"天青\"}、{argument name=\"example_color_2_en\" default=\"胭脂\"}、{argument name=\"argument name=\"example_color_3_en\" default=\"黛螺\"}），並搭配相關的古典詩詞、文物插圖或自然風景。",
+    "image": "https://cms-assets.youmind.com/media/1764209241902_949ick_ne0FJRQI-oGbGgfq.jpg",
+    "author": {
+      "name": "松果先森",
+      "url": "https://x.com/songguoxiansen"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/songguoxiansen/status/1991137382876541379"
+    },
+    "tags": [
+      "ZH",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-160",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "單一 HTML 檔案中的網頁版 Word 類富文本編輯器",
+    "description": "一個給 Gemini-3.0-Pro 的中文提示，用於建立一個 Word 風格的富文本編輯器，作為單一 HTML 檔案，包含主要格式化功能和下載選項。",
+    "prompt": "請協助我撰寫一個類似於 {argument name=\"reference_software_en\" default=\"Word\"} 的網頁版富文字編輯器，包含其主要功能，所有程式碼都放在單一 HTML 檔案中。它應該支援：標題、段落、靠左對齊、粗體、斜體、靠右對齊、底線、刪除線、背景顏色、文字顏色、編號、復原，以及最後的下載功能。請直接產生 HTML 程式碼，就這樣！",
+    "image": "https://cms-assets.youmind.com/media/1764209173944_kwdxz8_lQts3X1jzvL5Lb7g.jpg",
+    "author": {
+      "name": "karminski-牙医",
+      "url": "https://x.com/karminski3"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/karminski3/status/1991136616312963096"
+    },
+    "tags": [
+      "ZH",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-161",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "中文 Twitter KOL 排行榜登陸頁面",
+    "description": "一個中文提示，要求 Gemini 3.0 扮演一位注重美學的前端工程師，為一個中文 Twitter KOL 排名網站建構一個深色、高對比、由 Tailwind 驅動的登陸頁面，該頁面需從網路抓取資料並輸出純 HTML 及動畫。",
+    "prompt": "身為一位對美學有著強烈感受的前端工程師，請為「{argument name=\"leaderboard_name_en\" default=\"Chinese Twitter KOL Leaderboard\"}」建立一個網站登陸頁面。設計應高度精緻，採用極簡的調色盤、深色模式和高對比度。從網路上獲取資料來源。\r\n請使用 Tailwind CSS + HTML5，加入動畫，並直接輸出 HTML 程式碼。",
+    "image": "https://cms-assets.youmind.com/media/1764209256210_9yuf3c_nSwhmffYWeL8BVnG.jpg",
+    "author": {
+      "name": "katon",
+      "url": "https://x.com/hellokaton"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/hellokaton/status/1991044658638840304"
+    },
+    "tags": [
+      "ZH",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-162",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "英文繪本學習網路應用程式",
+    "description": "一個簡單的 Gemini 提示，用於生成一個透過繪本學習英文的網路應用程式，之後可以透過 Gemini 驅動的互動式課程來強化。",
+    "prompt": "創作一本學習 {argument name=\"learning_subject\" default=\"英文\"} 的繪本。",
+    "image": "https://cms-assets.youmind.com/media/1764209248163_oeazqe_wznIvkBORVz7dPEt.jpg",
+    "author": {
+      "name": "松果先森",
+      "url": "https://x.com/songguoxiansen"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/songguoxiansen/status/1991039234632003693"
+    },
+    "tags": [
+      "ZH",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-163",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "抖音推薦演算法演示動畫",
+    "description": "一個用於生成抖音推薦演算法動畫演示的簡短中文提示；雖然主要用於動畫，但它也可以應用於網頁環境。",
+    "prompt": "為 {argument name=\"platform_name_en\" default=\"Douyin\"} 建立推薦演算法的演示動畫。",
+    "image": "https://cms-assets.youmind.com/media/1764209245189_xk7l00_GCkbyVRynHwDSc_u.jpg",
+    "author": {
+      "name": "松果先森",
+      "url": "https://x.com/songguoxiansen"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/songguoxiansen/status/1991030405198458940"
+    },
+    "tags": [
+      "ZH",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-164",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "多級齒輪連動系統動畫",
+    "description": "一個簡潔的 Gemini 提示，用於生成一個動畫多級齒輪連動系統，其中轉動主齒輪會按比例帶動所有其他齒輪，適合做為 SVG 或 canvas 演示。",
+    "prompt": "一個多級齒輪連動系統，其中轉動主齒輪會使所有齒輪按比例自動移動。",
+    "image": "https://cms-assets.youmind.com/media/1764209182169_3uxnqx_S4oQ9lQndCTR9dpO.jpg",
+    "author": {
+      "name": "余温",
+      "url": "https://x.com/gkxspace"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/gkxspace/status/1990963691433701755"
+    },
+    "tags": [
+      "ZH"
+    ]
+  },
+  {
+    "id": "gemini-3-165",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "具爆炸性視覺效果的視差滾動首頁",
+    "description": "一個英文提示，用於生成一個視覺效果驚豔的視差滾動網站首頁，該首頁具有分層背景、流暢的過渡效果和互動式動畫元素。",
+    "prompt": "建立一個具有爆炸性視覺效果的視差捲動網站：分層背景在捲動時以不同速度移動、流暢的轉場，以及帶有動畫彈出的互動元素。",
+    "image": "https://cms-assets.youmind.com/media/1764209251231_c47kvt_f7sUEhYX0T-TA08T.jpg",
+    "author": {
+      "name": "木子不写代码",
+      "url": "https://x.com/ai_muzi"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/ai_muzi/status/1990905917735317857"
+    },
+    "tags": [
+      "EN"
+    ]
+  },
+  {
+    "id": "gemini-3-166",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "React 高端瑞士風格登陸頁面產生器",
+    "description": "一個英文提示片段，指示 Gemini 實作一個高階的瑞士現代風格登陸頁面，作為單一檔案的 React 元件，遵循嚴格的規範並使用瑞士現代和便當盒式佈局概念。",
+    "prompt": "{argument name=\"generator_name_en\" default=\"High-End LP Generator (Swiss Style)\"}\r\n\r\n根據稍後提供的「{argument name=\"input_text_en\" default=\"Input Text\"}」，請嚴格遵循以下規範，並以 React（單一檔案）實作一個高品質的登陸頁面。\r\n\r\n1. 設計理念：{argument name=\"design_concept_en\" default=\"Swiss Modern & Bento\"}\r\n\r\n風格：{argument name=\"style_en\" default=\"Apple/Linear-like Swiss modern style\"}，去除裝飾，運用留白和排版來營造吸引力。",
+    "image": "https://cms-assets.youmind.com/media/1764209183164_ff2fxj_G6EeVp4bMAE1rkh.jpg",
+    "author": {
+      "name": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信⚡️》",
+      "url": "https://x.com/masahirochaen"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/masahirochaen/status/1990905875104739689"
+    },
+    "tags": [
+      "EN",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-167",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "玻璃擬態霓虹介面 UI",
+    "description": "一個簡短的風格提示，描述一個玻璃擬態（glassmorphism）、霓虹燈般的超現代使用者介面（UI），帶有半透明面板，適合做為網頁介面佈局的指導。",
+    "prompt": "具備超現代 UI 照明效果和半透明玻璃面板的玻璃擬態霓虹介面。",
+    "image": "https://cms-assets.youmind.com/media/1764209235569_ubbhh8_hniRordigEgw3eLQ.jpg",
+    "author": {
+      "name": "余温",
+      "url": "https://x.com/gkxspace"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/gkxspace/status/1990890398005219692"
+    },
+    "tags": [
+      "ZH"
+    ]
+  },
+  {
+    "id": "gemini-3-168",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "Tesla FSD 道路識別的互動式 SVG 示範",
+    "description": "一個提示，指示 Gemini 使用 SVG 繪製一個動態、互動式的示範，說明 Tesla FSD 如何識別道路。",
+    "prompt": "使用 SVG 繪製 Tesla FSD 如何辨識道路的動態互動式演示。",
+    "image": "https://cms-assets.youmind.com/media/1764209230976_s1ev99_jNGZl2r_QttuS_eV.jpg",
+    "author": {
+      "name": "余温",
+      "url": "https://x.com/gkxspace"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/gkxspace/status/1990845658706612581"
+    },
+    "tags": [
+      "ZH"
+    ]
+  },
+  {
+    "id": "gemini-3-169",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "重新打造 GitHub 的 React 專案頁面 UI",
+    "description": "一個非常簡短的提示，要求 Gemini 3 Pro 建立 React 的 GitHub 頁面，有效地重現 React 儲存庫的 GitHub UI。",
+    "prompt": "建立 {argument name=\"project_name_en\" default=\"React\"} 的 GitHub 頁面。",
+    "image": "https://cms-assets.youmind.com/media/1764209164010_kfcr6v_UVP2rlimdiU6iAGm.jpg",
+    "author": {
+      "name": "Samro ✨",
+      "url": "https://x.com/jacobsamro"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/jacobsamro/status/1990844468996813279"
+    },
+    "tags": [
+      "EN",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-170",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "Three.js 博物館導覽場景",
+    "description": "一個英文提示，指示 Gemini 使用 three.js 建立一個可步行的 3D 博物館場景，其中包含白色牆壁和地板、玻璃天花板以及大廳中的方塊，就像一個小型第一人稱網頁遊戲環境。",
+    "prompt": "在 three.js 中建立一個場景。\r\n這將是一個博物館，牆上掛著畫作，您可以像玩遊戲一樣在博物館大廳裡走動。\r\n將牆壁和地板設為白色。\r\n天花板上會有玻璃，透過玻璃可以看到天空。\r\n另外，在大廳中央放置白色方塊。",
+    "image": "https://cms-assets.youmind.com/media/1764209190782_xuvxaf_lG3hvJgHdeeMM0Il.jpg",
+    "author": {
+      "name": "Sabo Sugi ✦",
+      "url": "https://x.com/sabosugi"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/sabosugi/status/1990840115984294112"
+    },
+    "tags": [
+      "EN"
+    ]
+  },
+  {
+    "id": "gemini-3-171",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "從圖片生成 Voxel 藝術 three.js 場景提示",
+    "description": "一個給 Gemini 3 的程式碼提示，用於生成一個受上傳圖片啟發的 Three.js 體素藝術場景，並將所有程式碼輸出為單一頁面檔案。",
+    "prompt": "我提供了一張圖片。請以這張圖片為靈感，編寫一個精美的體素藝術場景。請以單頁形式編寫 three.js 程式碼。",
+    "image": "https://cms-assets.youmind.com/media/1764209269076_pv0z04_ViPc6k-OigB0DvZy.jpg",
+    "author": {
+      "name": "Ian Goodfellow",
+      "url": "https://x.com/goodfellow_ian"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/goodfellow_ian/status/1990839056331337797"
+    },
+    "tags": [
+      "EN"
+    ]
+  },
+  {
+    "id": "gemini-3-172",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "具備混亂與還原控制項的 3D 魔術方塊網路應用程式",
+    "description": "一個用於 3D 魯比克方塊網頁介面的提示，該介面可供使用者混合、自動解題和手動操作。",
+    "prompt": "建立一個 3D {argument name=\"puzzle_type_en\" default=\"魔術方塊\"}，包含一個打亂方塊的「混合」按鈕，以及一個解開謎題的「解決」按鈕。同時也讓使用者可以手動操作並自行解開。",
+    "image": "https://cms-assets.youmind.com/media/1764209166801_28oo2s_Yw11-5ANo4d3iKMe.jpg",
+    "author": {
+      "name": "Alan Shiflett",
+      "url": "https://x.com/AlanShiflett"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/AlanShiflett/status/1990834197414785280"
+    },
+    "tags": [
+      "EN",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-173",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "Gemini 中類似 CapCut 的影片編輯器 UI",
+    "description": "一個非常簡單的高階提示，用於使用 Gemini 設計 CapCut 風格的影片編輯應用程式介面。",
+    "prompt": "設計一個 {argument name=\"app_name_en\" default=\"CapCut\"}。",
+    "image": "https://cms-assets.youmind.com/media/1764209226668_w793aq_M4xeFftoGPdIXQ73.jpg",
+    "author": {
+      "name": "padphone",
+      "url": "https://x.com/lepadphone"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/lepadphone/status/1990834118511505486"
+    },
+    "tags": [
+      "EN",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-174",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "單一檔案 HTML 撞球遊戲",
+    "description": "一個直接的提示，要求在單一 HTML 檔案中實作一個功能齊全的撞球遊戲。",
+    "prompt": "請在單一 HTML 檔案中建立一個功能齊全的 {argument name=\"game_type_en\" default=\"billiards game\"}。",
+    "image": "https://cms-assets.youmind.com/media/1764209229502_z8h43e_Sfw2XxjctaA-jcVN.jpg",
+    "author": {
+      "name": "余温",
+      "url": "https://x.com/gkxspace"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/gkxspace/status/1990822470308221043"
+    },
+    "tags": [
+      "ZH",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-175",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "Quantum core 監控單頁 HTML",
+    "description": "一個簡潔的提示，要求 Gemini 生成一個單頁 HTML（使用 SVG），以呈現「量子核心監控系統」的使用者介面。",
+    "prompt": "請為「{argument name=\"system_name_en\" default=\"Quantum Core Monitoring System\"}」生成一個單頁 HTML (SVG)。",
+    "image": "https://cms-assets.youmind.com/media/1764209232746_9r9qr8_6ATKtxR2C-Z_bgH4.jpg",
+    "author": {
+      "name": "余温",
+      "url": "https://x.com/gkxspace"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/gkxspace/status/1990818141610324361"
+    },
+    "tags": [
+      "ZH",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-176",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "動態點雲狹義相對論網頁",
+    "description": "一個簡潔的中文提示，指示 Gemini 撰寫一個動態網頁，該網頁使用炫酷的點雲效果來解釋狹義相對論，非常適合互動式物理演示。",
+    "prompt": "撰寫一個動態網頁，利用炫酷的點雲風格來解釋狹義相對論。",
+    "image": "https://cms-assets.youmind.com/media/1764209260950_8uv2vi_xRfGc1qs6KNG9LQh.jpg",
+    "author": {
+      "name": "-Zho-",
+      "url": "https://x.com/ZHO_ZHO_ZHO"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/ZHO_ZHO_ZHO/status/1990812808112419198"
+    },
+    "tags": [
+      "ZH"
+    ]
+  },
+  {
+    "id": "gemini-3-177",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "單一檔案的 Xbox 控制器 SVG",
+    "description": "一個提示，要求 Gemini 3.0 Pro 建立 Xbox 控制器的 SVG 圖像，適用於嵌入網頁或 UI 元件。",
+    "prompt": "建立一個 {argument name=\"controller_type_en\" default=\"Xbox 控制器\"} 的 SVG。",
+    "image": "https://cms-assets.youmind.com/media/1764209158979_4xcpbe_G6CeUfEX0AApWPC.jpg",
+    "author": {
+      "name": "Singularity",
+      "url": "https://x.com/SingulCore"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/SingulCore/status/1990765115785031961"
+    },
+    "tags": [
+      "EN",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-178",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "新粗野主義網頁生成提示",
+    "description": "一個用於生成極具創意、新粗野主義風格、響應式網頁的提示，該網頁具有流暢的捲動動畫、華麗的色彩和 Tailwind CSS，標題為 dorksense。",
+    "prompt": "製作一個新粗野主義網頁，使其極具創意並盡可能突破極限。加入流暢的捲動動畫、華麗的色彩和 Tailwind CSS 樣式。使其完全響應式。頁面標題為 {argument name=\"page_title\" default=\"dorksense\"}。",
+    "image": "https://cms-assets.youmind.com/media/1764209270654_9o0of1_5Grq3MMeGuW79EHM.jpg",
+    "author": {
+      "name": "Dorksense",
+      "url": "https://x.com/Dork_sense"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/Dork_sense/status/1988965641890787793"
+    },
+    "tags": [
+      "EN",
+      "Raycast"
+    ]
+  },
+  {
+    "id": "gemini-3-179",
+    "source": "gemini-3",
+    "category": "Gemini 3",
+    "title": "紐約天際線 SVG 單一 HTML 場景",
+    "description": "一個英文提示，要求 Gemini 生成一個高度詳細且富有創意的紐約天際線 SVG，該 SVG 可以作為單一 HTML 檔案貼上並在 Chrome 中開啟。",
+    "prompt": "{argument name=\"city_skyline_en\" default=\"紐約天際線\"} 的 SVG。請使用任何必要的函式庫來完成此任務，但請確保我可以將所有內容貼到單一 HTML 檔案中，並在 Chrome 中開啟。讓它變得有趣且高度細緻，展現出意想不到的細節。在一個程式碼區塊中，盡情發揮創意和美感。",
+    "image": "https://cms-assets.youmind.com/media/1764209201317_tgxusr_G3Yz3dKWkAAp-iS.jpg",
+    "author": {
+      "name": "Chetaslua",
+      "url": "https://x.com/chetaslua"
+    },
+    "origin": {
+      "text": "Twitter Post",
+      "url": "https://x.com/chetaslua/status/1978826911900946793"
+    },
+    "tags": [
+      "EN",
+      "Raycast"
+    ]
   }
 ]
